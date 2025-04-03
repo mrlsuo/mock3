@@ -48,4 +48,22 @@
 			<eligibility level="advanced">Open</eligibility>
 		</levels>
 	</subject>
+	<subject id="s5" type="elective">
+		<name>Chinese</name>
+		<description>This subject explores chinese language.</description>
+		<levels>
+			<eligibility level="beginner">Open</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
+	<subject id="s6" type="elective">
+		<name>English</name>
+		<description>This subject explores english language.</description>
+		<levels>
+			<eligibility level="beginner">Open</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
 </subjects>
