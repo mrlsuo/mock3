@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="xmlstyle.xsl"?>
+<!DOCTYPE subjects [
+	<!ELEMENT subjects (subject*)>
+	<!ELEMENT subject (name,description,levels)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT levels (eligibility+)>
+	<!ELEMENT eligibility (#PCDATA)>
+	<!ATTLIST subject id ID #REQUIRED>
+	<!ATTLIST subject type (core|elective) "core">
+	<!ATTLIST eligibility level (beginner | intermediate | advanced) "beginner">
+]>
+<subjects>
+	<subject id="s1">
+		<name>Mathematics</name>
+		<description>This subject covers fundamental to advanced mathematical concepts.</description>
+		<levels>
+			<eligibility level="beginner">Open</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
+	<subject id="s2">
+		<name>Physics</name>
+		<description>This subject focuses on the principles of physics and their applications.</description>
+		<levels>
+			<eligibility level="beginner">closed</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
+	<subject id="s3">
+		<name>Chemistry</name>
+		<description>This subject covers organic, inorganic, and physical chemistry.</description>
+		<levels>
+			<eligibility level="beginner">Open</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
+	<subject id="s4">
+		<name>History</name>
+		<description>This subject explores historical events and their significance.</description>
+		<levels>
+			<eligibility level="beginner">Open</eligibility>
+			<eligibility level="intermediate">Open</eligibility>
+			<eligibility level="advanced">Open</eligibility>
+		</levels>
+	</subject>
+</subjects>
